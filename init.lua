@@ -32,6 +32,15 @@ minetest.register_node(mod_name..':compost_heap', {
 minetest.register_craft({
 	output = mod_name..':compost_heap',
 	recipe = {
+		{ 'group:flora', 'group:flora', 'group:flora', },
+		{ 'group:flora', 'group:flora', 'group:flora', },
+		{ 'group:flora', 'group:flora', 'group:flora', },
+	}
+})
+
+minetest.register_craft({
+	output = mod_name..':compost_heap',
+	recipe = {
 		{ 'group:leaves', 'group:leaves', 'group:leaves', },
 		{ 'group:leaves', 'group:leaves', 'group:leaves', },
 		{ 'group:leaves', 'group:leaves', 'group:leaves', },
